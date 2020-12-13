@@ -1,0 +1,131 @@
+header {
+	padding: 20px;
+	background-color: #211e2f;
+	color: white;
+}
+
+body {
+    padding-bottom: 200px;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #211e2f;
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.row {
+  position: relative;
+  top: 0;
+  left: 0;
+  padding: 10px;
+}
+
+/*Snake Image and Accessories*/
+
+.imagebase {
+	position: relative;
+  	top: 0;
+  	left: 0;
+}
+
+/*makes image overlap on top of previous image*/
+
+.imageoverlap {
+	position: absolute;
+  	top: 0;
+  	left: 0;
+}
+
+#snakeblep {
+	visibility: hidden;
+}
+
+#snakehat {
+	visibility: hidden;
+}
+
+#snakeglasses {
+	visibility: hidden;
+}
+
+/*Buttons*/
+
+.btn-primary, .btn-primary:hover, .btn-primary:focus, .btn-primary.focus, 
+    .btn-primary:active, .btn-primary.active, .btn-primary:visited,
+    .btn-primary:active:hover, .btn-primary.active:hover{
+        background-color: #b58c10;
+        border: none;
+        outline: none;
+    }
+
+.btn-primary:hover, .btn-primary:active:hover, .btn-primary.active:hover{
+        background-color: #664d00;
+        border: none;
+        outline: none;
+    }
+
+.longbutton {
+	width: 100%;
+}
+
+.funbutton {
+	float: left;
+	padding: 20px;
+	background-color: #e8be3f;
+	border-radius: 75%;
+}
+
+/*Text*/
+
+h1 {
+	font-size: 50px;
+	text-align: center;
+	font-family: "Futura";
+}
+
+p {
+	padding: 20px;
+	font-size: 16px;
+	text-align: center;
+	margin-left: auto;
+    margin-right: auto;
+    font-family: "Futura";
+}
+
+#bodydescription {
+	margin: 20px auto;
+	padding-top: 20px;
+	width: 30%;
+	border-style: dotted;
+	color: #b58c10;
+}
+
+#desc {
+	padding: 20px;
+}
+
+.caption {
+	padding: 0px;
+	font-size: 17px;
+	width: 80%;
+}
+
+.caption a {
+	color: #b58c10;
+}
+
+.left {
+	text-align: left;
+}
+
+.title {
+	font-size: 20px;
+	font-weight: bold;
+	text-shadow: 2px 2px 8px #b58c10;
+}
