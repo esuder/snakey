@@ -1,17 +1,17 @@
 function snakeWildMorph(){
-	document.getElementById('snakedrawing').src="myassets/img/snakedrawingwildtype.png";
+	document.getElementById('snakedrawing').src="img/snakedrawingwildtype.png";
 }
 
 function snakeAlbinoMorph(){
-	document.getElementById('snakedrawing').src="myassets/img/snakedrawingalbino.png";
+	document.getElementById('snakedrawing').src="img/snakedrawingalbino.png";
 }
 
 function snakeLeucisticMorph(){
-	document.getElementById('snakedrawing').src="myassets/img/snakedrawingleucistic.png";
+	document.getElementById('snakedrawing').src="img/snakedrawingleucistic.png";
 }
 
 function snakeCondaMorph(){
-	document.getElementById('snakedrawing').src="myassets/img/snakedrawingconda.png";
+	document.getElementById('snakedrawing').src="img/snakedrawingconda.png";
 }
 
 function snakeBlep(){
